@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Leilão dos guri
+        </title>
+
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    </head>
+
+    <body>
+        <div class="text-center">
+            <div class="jumbotron">
+                <h1>
+                    Criar novo leilão
+                </h1>
+
+                <form action="/create" method="post">
+                    
+                    <div class="form-group">
+                        <input type="text" placeholder="Nome do produto" name="product">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Preço do produto" name="price">
+                    </div>
+
+                    <input class="btn btn-primary" type="submit" value="Criar">
+
+                    <a href="/">
+                        <input class="btn btn-primary" type="button" value="Voltar">
+                    </a>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
